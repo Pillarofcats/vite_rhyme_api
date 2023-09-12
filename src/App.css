@@ -1,0 +1,44 @@
+.form {
+  display: flex;
+  justify-content: center;
+  margin-top: 15vh;
+}
+
+.field-format {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding-top: .5rem;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.rhyme-word-list {
+  margin: 0 auto;
+  padding: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 50vw;
+  gap: .5rem;
+}
+
+.word {
+  flex: 1 1 auto;
+  padding: 0rem .5rem;
+  border: 1px solid rgb(14, 167, 83);
+  border-radius: 5px;
+}
+
+legend {
+  margin: 0rem 1rem;
+  padding: 0rem .5rem;
+}
+
+i {
+  font-weight: normal;
+  color: rgb(102, 206, 102);
+}
